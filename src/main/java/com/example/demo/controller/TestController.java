@@ -12,6 +12,6 @@ public class TestController {
 	
 	@GetMapping("/test")
 	public ResponseEntity<String> testAPI(){
-		return new ResponseEntity<>("Á¦¹ß ³ª¸¦ º¸¿©Áà¤Ì¤Ğ¤Ì", HttpStatus.OK);
+		return new ResponseEntity<>("í•œê¸€ì„ ì‚¬ë‘í•©ì‹œë‹¤.", HttpStatus.OK);
 	}
 }
