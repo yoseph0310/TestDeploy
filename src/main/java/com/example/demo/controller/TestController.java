@@ -14,4 +14,5 @@ public class TestController {
 	public ResponseEntity<String> testAPI(){
 		return new ResponseEntity<>("한글을 사랑합시다.", HttpStatus.OK);
 	}
+
 }
