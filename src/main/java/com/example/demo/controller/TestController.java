@@ -12,7 +12,7 @@ public class TestController {
 	
 	@GetMapping("/test")
 	public ResponseEntity<String> testAPI(){
-		return new ResponseEntity<>("한글을 사랑합시다.", HttpStatus.OK);
+		return new ResponseEntity<>("코치용 명세서 제작", HttpStatus.OK);
 	}
 
 }
