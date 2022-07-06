@@ -14,5 +14,4 @@ public class TestController {
 	public ResponseEntity<String> testAPI(){
 		return new ResponseEntity<>("코치용 명세서 제작", HttpStatus.OK);
 	}
-
 }
